@@ -1,9 +1,13 @@
-import Navegacion from '../components/Navegacion';
+import MasterPage from '../components/Master';
 const nosotros = () => (
-  <div>
-    <Navegacion />
-    <p>Desde Nosotros</p>
-  </div>
+    <MasterPage>
+
+    <div>
+      
+        <h2>Nosotros</h2>
+      </div>
+    
+    </MasterPage>
 );
 
 export default nosotros;
