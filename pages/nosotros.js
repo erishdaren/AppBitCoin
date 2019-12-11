@@ -1,6 +1,9 @@
+import Navegacion from '../components/Navegacion';
 const nosotros = () => (
-    <a>Desde nosotros</a>
-
-)
+  <div>
+    <Navegacion />
+    <p>Desde Nosotros</p>
+  </div>
+);
 
 export default nosotros;
